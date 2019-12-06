@@ -1,6 +1,6 @@
 
-Assignment1: 
-Steps:
+1. 
+
 >Used an EC2 ubuntu free-tier host
 >Installed docker
 >Pulled an ubuntu image from DockerHub
@@ -10,12 +10,12 @@ Steps:
 "https://hub.docker.com/repository/docker/secabhk/ubuntu-apache2"
 
 
-Assignment2: 
+
+2. 
 
 Dockerfile used: 
 
 -----------------------
-
 FROM ubuntu 
 RUN apt-get update
 RUN apt-get install -y apache2
